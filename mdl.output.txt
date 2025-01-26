@@ -1,0 +1,22 @@
+C:\Users\PC\OneDrive\Documenti\MSXgl-1.0.0\projects>java -jar mdl.jar AfterBurner\out\template.asm -dialect sdcc -po
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#850: Replace ld (hl),0;...;ld (hl),0 with xor a;ld (hl),a;...;ld (hl),a (1 bytes, 1 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1081: Replace ld de,(_AnimateExplosion_x2_20001_652); ex de,hl with ld hl,(_AnimateExplosion_x2_20001_652) (2 bytes, 10 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1107: Replace ld de,(_AnimateExplosion_y2_20001_652); ex de,hl with ld hl,(_AnimateExplosion_y2_20001_652) (2 bytes, 10 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1243: Remove ld l,(ix + -4), and directly add ld l,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1244: Remove ld h,(ix + -3), and directly add ld h,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1271: Replace ld (hl),0;...;ld (hl),0 with xor a;ld (hl),a;...;ld (hl),a (1 bytes, 1 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1416: Move ld a, (ix + -2) before ld l, (ix + -2), and replace the latter with ld l, a. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1441: Remove ld l,(ix + -8), and directly add ld l,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1442: Remove ld h,(ix + -7), and directly add ld h,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1466: Remove ld l,(ix + -6), and directly add ld l,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1467: Remove ld h,(ix + -5), and directly add ld h,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1491: Remove ld l,(ix + -4), and directly add ld l,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1492: Remove ld h,(ix + -3), and directly add ld h,a above. (2 bytes, 16 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1511: Remove push hl / pop hl as register is not modified in between (2 bytes, 23 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1696: Replace ld de,(_MoveEnemy_x2_20001_664); ex de,hl with ld hl,(_MoveEnemy_x2_20001_664) (2 bytes, 10 t-states saved)
+INFO: Pattern-based optimization in AfterBurner\out\template.asm#1723: Replace ld de,(_MoveEnemy_y2_20001_664); ex de,hl with ld hl,(_MoveEnemy_y2_20001_664) (2 bytes, 10 t-states saved)
+WARNING: Cannot determine the next statements after: AfterBurner\out\template.asm#2009
+WARNING: Cannot determine the next statements after: AfterBurner\out\template.asm#2162
+DIGGEST: PatternBasedOptimizer: 16 patterns applied, 30 bytes, 209 t-states saved.
+INFO: mdl optimization summary: 30 bytes, 209 t-states saved. Pattern-based optimizer pattern applications: 16.
+2 warnings.
