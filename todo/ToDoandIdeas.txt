@@ -1,0 +1,7 @@
+fatto - Aumentare a 48x48 la dimensione massima degli sprite nemici ed adeguare la catena matalb per ruotare e zoomare gli sprites.
+- Allocare tutti gli sprite nella SPT appartenenti ad una frame al momento dell'attivazione della frame nell'oggetto logico, liberare gli sprite quando la frame cambia. Prima di allocare gli sprite appartenenti ad una frame, verificare se nella SPT c'è già la stessa frame già caricata.
+- Definire le frame dei nemici a partire dalla grafica dell'arcade (!)
+- Introdurre la rotazione della direzione di vista della camera quando il giocatore vira a destra o a sinistra
+- introdurre il mirino
+- introdurre -per ciascun frame dell'aereo del giocatore - la posizione delle mitragliatrici da cui partono i proiettili
+- definire la traiettoria dei proiettili tra mirino e mitragliatrici
